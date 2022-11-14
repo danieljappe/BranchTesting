@@ -10,4 +10,13 @@ public class Cat extends Animal{
         return true;
     }
 
+    @Override
+    public void showMood(Boolean mood) {
+        if (mood = true) {
+            System.out.println("danser tango");
+        } else {
+            System.out.println("hvæser");
+        }
+    }
+
 }
