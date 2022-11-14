@@ -1,11 +1,12 @@
 abstract public class Animal {
     private String name;
+    private String foodType;
 
     public abstract void makeSound();
 
-    public static void main(String[] args) {
-        System.out.println();
+    public abstract boolean eat(String foodType);
+
     }
-}
+
 
 
