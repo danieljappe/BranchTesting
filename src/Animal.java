@@ -3,9 +3,6 @@ abstract public class Animal {
 
     public abstract void makeSound();
 
-    public static void main(String[] args) {
-        System.out.println();
-    }
 }
 
 
