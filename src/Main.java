@@ -5,5 +5,6 @@ public class Main {
 
         dog.makeSound();
         cat.makeSound();
+        System.out.println("hghgh");
     }
 }
